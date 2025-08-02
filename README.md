@@ -26,8 +26,6 @@
 ### Technologies/Components Used
 For Software:
 - [Languages used]
-- [Frameworks used]
-- [Libraries used]
 - [Tools used]
 
 For Hardware:
