@@ -25,13 +25,9 @@
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Tools used]
+- The languages used are HTML, CSS and JavaScipt
+- Tools used are VS Code, Live Server and Web Browser
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
