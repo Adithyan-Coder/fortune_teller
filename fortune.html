@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Fortune</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsnW5wqEYwDk2T6IAkMm-x1j8Vs5w-ff9qClh57zWreW1RT9Qku1apaoYL4G16L_SuEpYu7zpYxVN_Fmr9ikX_jwpIJ-geEMCjD20YHZRMYsBuqfNY77uZfPZdXRKMb8qrqpDWxkeIf1KC4M-kSIjD5oPQyuHD-DRY7d8cSyA5NTQPezRHzGQ_XDqapEg/s650-rw/madam8.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      position: relative;
+    }
+
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-color: rgba(255, 255, 255, 0.4); /* transparency */
+      z-index: 0;
+    }
+
+    .container {
+      z-index: 1;
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 30px 40px;
+      border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      font-size: 36px;
+      color: #2a2a2a;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #f4a261;
+    }
+
+    #fortuneBox {
+      font-size: 20px;
+      color: #264653;
+      margin: 20px 0;
+      white-space: pre-wrap;
+    }
+
+    .actions {
+      margin-top: 30px;
+    }
+
+    .actions button {
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #f4a261;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin: 10px;
+      transition: background-color 0.3s;
+    }
+
+    .actions button:hover {
+      background-color: #e76f51;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Your Fortune</h1>
+    <p id="fortuneBox"></p>
+
+    <div class="actions">
+      <button onclick="location.href='index.html'">Exit</button>
+      <button onclick="location.href='input.html'">Know Another Fortune</button>
+    </div>
+  </div>
+
+  <script>
+    const fortunes = [
+      "You might step into a dog poop today",
+      "Your coffee will be cold no matter what!",
+      "You will get wet today!",
+      "A cat will turn back on you",
+      "You are the chosen one. For something weird",
+      "You will finally understand that one meme… tomorrow",
+      "Don’t worry, nobody else knows what they’re doing either",
+      "Your life will be like a password—no one knows the complications, not even you",
+      "You might get a girlfriend today. WAKE UP from your dream!!!!!!!!!",
+      "A mysterious breeze will change your plans",
+      "A pigeon will bless your luck... or your shoulder",
+      "Expect the unexpected. Especially from your best friends!!!",
+      "Your vibe will confuse people. Keep it mysterious"
+    ];
+
+    window.onload = function () {
+      const fortuneElement = document.getElementById("fortuneBox");
+      const userQuery = sessionStorage.getItem('userQuery');
+      const randomIndex = Math.floor(Math.random() * fortunes.length);
+      const fortune = fortunes[randomIndex];
+
+      fortuneElement.innerText = `"${userQuery}"\n\n🔮 ${fortune}`;
+    };
+  </script>
+</body>
+</html>
