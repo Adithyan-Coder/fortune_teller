@@ -5,22 +5,18 @@
 
 
 ## Basic Details
-### Team Name: [Name]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+Adithyan K S - Albertian Institute of Science And Technology
 
 ### Project Description
-[2-3 lines about what your project does]
-
+Predicts the future of the user. This is accomplished by pushing pre-set values randomly each time. 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+
 
 ## Technical Details
 ### Technologies/Components Used
@@ -41,18 +37,15 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+](https://drive.google.com/file/d/15O5wL9iFb6NAQ970yoBnCbsujSPuKJiJ/view?usp=drivesdk)
+*This is the first page*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2](https://drive.google.com/file/d/15fhMVU_MZ2JNjZu2XQKWhp2jNxiKJOXV/view?usp=drivesdk)
+*This is the second page*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot3](https://drive.google.com/file/d/15dAOrTRr1XHZY3TPbu5F1xjqhT0Yi8ah/view?usp=drivesdk)
+*This is the third and final page*
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
 
 For Hardware:
 
@@ -75,16 +68,11 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/file/d/15PxuEbq-g5nIOFClncEdU9Dr5gMJx4Wc/view?usp=drivesdk
+*The video demonstrates the full working of the website.*
 
 # Additional Demos
 [Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
