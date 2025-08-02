@@ -37,34 +37,15 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-](https://drive.google.com/file/d/15O5wL9iFb6NAQ970yoBnCbsujSPuKJiJ/view?usp=drivesdk)
+(https://drive.google.com/file/d/15O5wL9iFb6NAQ970yoBnCbsujSPuKJiJ/view?usp=drivesdk)
 *This is the first page*
 
-![Screenshot2](https://drive.google.com/file/d/15fhMVU_MZ2JNjZu2XQKWhp2jNxiKJOXV/view?usp=drivesdk)
+(https://drive.google.com/file/d/15fhMVU_MZ2JNjZu2XQKWhp2jNxiKJOXV/view?usp=drivesdk)
 *This is the second page*
 
-![Screenshot3](https://drive.google.com/file/d/15dAOrTRr1XHZY3TPbu5F1xjqhT0Yi8ah/view?usp=drivesdk)
+(https://drive.google.com/file/d/15dAOrTRr1XHZY3TPbu5F1xjqhT0Yi8ah/view?usp=drivesdk)
 *This is the third and final page*
 
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
